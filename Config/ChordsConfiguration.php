@@ -26,6 +26,12 @@ class ChordsConfiguration implements ConfigurationInterface
                 ->arrayNode('language')
                     ->prototype('scalar')->end()
                 ->end()
+                ->booleanNode('prefer_cdn')
+                    ->defaultValue(false)
+                ->end()
+                ->scalarNode('project_name')
+                    ->defaultValue('Demo')
+                ->end()
             ->end()
         ;
         $this->appendChordsNodes($rootNode);
