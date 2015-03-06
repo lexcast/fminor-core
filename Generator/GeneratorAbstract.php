@@ -8,7 +8,7 @@ abstract class GeneratorAbstract
     abstract public function generate(array $requests, ParametersManager $parManager);
     protected function create($path, $filename, $content)
     {
-        $path = __DIR__.'/../../../../'.$path.'/';
+        $path = __DIR__.'/../../../../'.$path;
         if (!is_dir($path)) {
             mkdir($path, 0777, true);
         }
