@@ -20,8 +20,9 @@ abstract class GeneratorAbstract
     protected function getRequestById(array $requests, $id)
     {
         foreach ($requests as $request) {
-            if ($request->getId() === $id)
+            if ($request->getId() === $id) {
                 return $request;
+            }
         }
     }
 }

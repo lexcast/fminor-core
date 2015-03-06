@@ -4,10 +4,11 @@ namespace Fminor\Core\Request;
 abstract class RequestAbstract
 {
     private $id;
-    static function filter($requests)
+    public static function filter($requests)
     {
         return array_filter($requests, function ($request) {
             $class = get_class();
+
             return ($request instanceof $class);
         });
     }

@@ -1,7 +1,6 @@
 <?php
 namespace Fminor\Core\Templating;
 
-
 class TwigEngine
 {
     /**
