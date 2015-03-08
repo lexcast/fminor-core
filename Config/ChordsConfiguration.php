@@ -32,6 +32,9 @@ class ChordsConfiguration implements ConfigurationInterface
                 ->scalarNode('project_name')
                     ->defaultValue('Demo')
                 ->end()
+                ->scalarNode('company_name')
+                    ->defaultValue('Acme')
+                ->end()
             ->end()
         ;
         $this->appendChordsNodes($rootNode);
