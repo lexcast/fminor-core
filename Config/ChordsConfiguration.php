@@ -27,7 +27,7 @@ class ChordsConfiguration implements ConfigurationInterface
                     ->prototype('scalar')->end()
                 ->end()
                 ->booleanNode('prefer_cdn')
-                    ->defaultValue(false)
+                    ->defaultFalse()
                 ->end()
                 ->scalarNode('project_name')
                     ->defaultValue('Demo')
