@@ -5,12 +5,12 @@
 	"license" : "MIT",
 	"autoload" : {
 		"psr-4" : {
-			"Fminor\\Controller\\" : "Controller/"
+			"Fminor\\Core\\Controller\\" : "Controller/"
 		}
 	},
 	"autoload-dev" : {
 		"psr-4" : {
-			"Fminor\\" : ""
+			"Fminor\\Core" : ""
 		}
 	},
 	"require" : {
