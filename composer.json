@@ -1,6 +1,5 @@
 {
 	"name" : "lexcast/fminor-core",
-	"type" : "project",
 	"description" : "Core of the Fminor project",
 	"version" : "1.0-dev",
 	"license" : "MIT",
