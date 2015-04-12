@@ -4,20 +4,13 @@
 	"license" : "MIT",
 	"autoload" : {
 		"psr-4" : {
-			"Fminor\\Core\\Controller\\" : "Controller/"
-		}
-	},
-	"autoload-dev" : {
-		"psr-4" : {
 			"Fminor\\Core\\" : ""
 		}
 	},
 	"require" : {
 		"php" : ">=5.3.3",
 		"symfony/http-foundation" : "~2.6",
-		"symfony/templating" : "~2.6"
-	},
-	"require-dev" : {
+		"symfony/templating" : "~2.6",
 		"symfony/console" : "~2.6",
 		"symfony/config" : "~2.6",
 		"symfony/yaml" : "~2.6",
